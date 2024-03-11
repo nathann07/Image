@@ -2,6 +2,8 @@
 
 ## Introduction
 
+To run this program, execute the Image.jar file found in the main directory.
+
 This program utilizes the decorator design pattern. It consists of a series of base classes and decorator classes to make up a final digital image, similar to how social media apps allow different filters or effects to be overlaid onto pictures.
 
 In the program, the decorator pattern is used to add visual modifications to the original picture.
