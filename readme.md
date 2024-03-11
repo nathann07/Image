@@ -23,14 +23,14 @@ In the current MakeImage method (located in Main.java), I have taken the origina
 * The blue border is color `(0, 0, 255)` and has a thickness of `50` (before scaling)
 * The yellow circle is color `(255, 255, 0)`, has radius `40` (before scaling), and is at position `(50, 50)` in the final, unscaled image
 * The orange square is color `(200, 80, 10)`, has size `40` (before scaling), and is at position `(100, 100)` in the final, unscaled image
-* After applying these decorators, add one last `ZoomDecorator` with a multiplier of `2`, to make the image bigger
+* After applying these decorators, it adds one last `ZoomDecorator` with a multiplier of `2`, to make the image bigger
 
 However, any combination of these decorators can be applied to the image freely, in any desired order.
 
 
 ### Image interface
 
-Every class you will create for this assignment should implement the `Image` interface, which is already provided in the starter code. An `Image` object represents a digital image. Digital images are made up of a two-dimensional grid of "pixels", which are essentially minuscule rectangles of color.
+Every class for this assignment implements the `Image` interface. An `Image` object represents a digital image. Digital images are made up of a two-dimensional grid of "pixels", which are essentially minuscule rectangles of color.
 
 Every `Image` has a width and a height, referring to the number of horizontal and vertical pixels in the image. The `Image` interface therefore has `getWidth()` and `getHeight()` getter methods for getting these values.
 
@@ -51,7 +51,7 @@ The other base image class is `PictureImage`, which represents an existing image
 
 ### SquareDecorator
 
-This decorator class should superimpose a configurable square on top of an existing image.
+This decorator class superimposes a configurable square on top of an existing image.
 
 
 ### CircleDecorator
